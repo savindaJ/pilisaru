@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="499.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.sensorsController.SensorPanal2Controller">
+   <children>
+      <Slider fx:id="tempSlider" layoutX="74.0" layoutY="35.0" majorTickUnit="10.0" max="50.0" minorTickCount="5" orientation="VERTICAL" prefHeight="343.0" prefWidth="46.0" showTickLabels="true" showTickMarks="true" />
+      <Label fx:id="lblTemp" layoutX="130.0" layoutY="155.0" prefHeight="60.0" prefWidth="100.0">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="198.0" rotate="-90.0" text="Temperature">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

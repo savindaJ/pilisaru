@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane focusTraversable="true" prefHeight="720.0" prefWidth="986.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.AddEmployeeController">
+   <ImageView fitHeight="720.0" fitWidth="986.0" layoutX="36.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <image>
+         <Image url="@../../assepts/EmployeeAddInterface.png" />
+      </image>
+   </ImageView>
+   <TextField layoutX="395.0" layoutY="343.0" prefHeight="59.0" prefWidth="327.0" style="-fx-background-color: white; -fx-border-width: 0 0 2 0; -fx-border-color: black;">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </TextField>
+   <TextField layoutX="397.0" layoutY="429.0" prefHeight="59.0" prefWidth="327.0" style="-fx-background-color: white; -fx-border-width: 0 0 2 0; -fx-border-color: black;">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </TextField>
+   <TextField layoutX="403.0" layoutY="534.0" prefHeight="44.0" prefWidth="327.0" style="-fx-background-color: white; -fx-border-width: 0 0 2 0; -fx-border-color: black;">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </TextField>
+   <Button id="blue" fx:id="btnAdd" layoutX="763.0" layoutY="619.0" mnemonicParsing="false" onAction="#btnAddOnAction" prefHeight="44.0" prefWidth="150.0" style="-fx-background-color: #0BA27A; -fx-background-radius: 35;" stylesheets="@../../sheets/stylesheet.css" text="Add" textFill="WHITE">
+      <font>
+         <Font size="20.0" />
+      </font>
+   </Button>
+</AnchorPane>

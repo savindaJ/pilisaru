@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="986.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="986.0" layoutX="204.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../../assepts/CompostUI.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="359.0" layoutY="151.0" prefHeight="25.0" prefWidth="268.0" style="-fx-border-width: 0 0 1 0; -fx-background-color: white; -fx-border-color: black;" />
+      <TextField layoutX="359.0" layoutY="204.0" prefHeight="25.0" prefWidth="268.0" style="-fx-border-width: 0 0 1 0; -fx-background-color: white; -fx-border-color: black;" />
+      <TextField layoutX="711.0" layoutY="22.0" prefHeight="26.0" prefWidth="36.0" style="-fx-border-width: 0 0 1 0; -fx-background-color: white; -fx-border-color: black;" />
+      <TextField layoutX="757.0" layoutY="21.0" prefHeight="26.0" prefWidth="36.0" style="-fx-border-width: 0 0 1 0; -fx-background-color: white; -fx-border-color: black;" />
+      <TextField layoutX="803.0" layoutY="20.0" prefHeight="26.0" prefWidth="56.0" style="-fx-border-width: 0 0 1 0; -fx-background-color: white; -fx-border-color: black;" />
+      <TableView layoutX="114.0" layoutY="291.0" prefHeight="101.0" prefWidth="786.0">
+        <columns>
+          <TableColumn prefWidth="262.0" text="Available MOP Level" />
+          <TableColumn prefWidth="262.0" text="Standard MOP Level" />
+            <TableColumn prefWidth="262.0" text="Needed MOP Level" />
+        </columns>
+      </TableView>
+      <TableView layoutX="114.0" layoutY="428.0" prefHeight="101.0" prefWidth="786.0">
+         <columns>
+            <TableColumn prefWidth="262.0" text="Available MOP Level" />
+            <TableColumn prefWidth="262.0" text="Standard MOP Level" />
+            <TableColumn prefWidth="262.0" text="Needed MOP Level" />
+         </columns>
+      </TableView>
+      <TableView layoutX="114.0" layoutY="563.0" prefHeight="101.0" prefWidth="786.0">
+         <columns>
+            <TableColumn prefWidth="262.0" text="Available MOP Level" />
+            <TableColumn prefWidth="262.0" text="Standard MOP Level" />
+            <TableColumn prefWidth="262.0" text="Needed MOP Level" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

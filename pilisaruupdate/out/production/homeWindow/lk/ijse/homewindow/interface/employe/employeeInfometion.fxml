@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="720.0" prefWidth="986.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.AddemployeeinterfaceController">
+   <ImageView fitHeight="720.0" fitWidth="986.0" layoutX="7.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="-7.0" AnchorPane.topAnchor="0.0">
+      <image>
+         <Image url="@../../assepts/EmployeeInfo.png" />
+      </image>
+   </ImageView>
+   <ComboBox layoutX="439.0" layoutY="362.0" prefHeight="44.0" prefWidth="328.0" style="-fx-background-color: white; -fx-background-radius: 35px; -fx-border-radius: 35px; -fx-border-color: black;" />
+   <TextField layoutX="421.0" layoutY="442.0" prefHeight="44.0" prefWidth="368.0" style="-fx-background-color: white; -fx-border-width: 0 0 2 0; -fx-border-color: black;" />
+   <TextField layoutX="421.0" layoutY="533.0" prefHeight="44.0" prefWidth="368.0" style="-fx-background-color: white; -fx-border-width: 0 0 2 0; -fx-border-color: black;" />
+</AnchorPane>

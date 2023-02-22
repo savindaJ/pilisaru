@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane prefHeight="720.0" prefWidth="986.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.CompostGetInfoController">
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="986.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../assepts/compostInformation.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="515.0" layoutY="443.0" prefHeight="39.0" prefWidth="286.0" style="-fx-background-color: white;" />
+      <ComboBox layoutX="515.0" layoutY="385.0" prefHeight="39.0" prefWidth="286.0" style="-fx-background-color: white; -fx-background-radius: 35 35 35 35; -fx-border-color: black; -fx-border-radius: 35 35 35 35;" />
+      <Line endX="185.0" layoutX="616.0" layoutY="482.0" startX="-100.0" />
+      <TableView layoutX="261.0" layoutY="566.0" prefHeight="98.0" prefWidth="567.0">
+        <columns>
+          <TableColumn editable="false" prefWidth="180.0" text="Tea" />
+          <TableColumn editable="false" prefWidth="189.0" text="Rubber" />
+            <TableColumn editable="false" minWidth="0.0" prefWidth="197.0" text="Coconut" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

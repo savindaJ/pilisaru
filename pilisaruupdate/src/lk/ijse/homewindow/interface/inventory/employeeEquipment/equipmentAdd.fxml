@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="986.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.EquipmentAddController">
+   <ImageView fitHeight="720.0" fitWidth="986.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../../../assepts/Equipment%20Add.png" />
+      </image>
+   </ImageView>
+        <TextField layoutX="440.0" layoutY="400.0" prefHeight="50.0" prefWidth="287.0" style="-fx-background-color: white; -fx-background-radius: 35; -fx-border-width: 0 0 2 0; -fx-border-color: black;">
+      <font>
+         <Font size="20.0" />
+      </font>
+   </TextField>
+       <Button id="blue" layoutX="764.0" layoutY="618.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="140.0" style="-fx-background-color: #0BA27A; -fx-background-radius: 35;" stylesheets="@../../../sheets/stylesheet.css" text="Add">
+      <font>
+         <Font size="24.0" />
+      </font>
+   </Button>
+   <ChoiceBox layoutX="436.0" layoutY="467.0" prefHeight="39.0" prefWidth="287.0" style="-fx-background-color: white; -fx-background-radius: 35; -fx-border-radius: 35; -fx-border-color: black;" />
+   <TextField layoutX="440.0" layoutY="350.0" prefHeight="50.0" prefWidth="287.0" style="-fx-background-color: white; -fx-background-radius: 35; -fx-border-width: 0 0 2 0; -fx-border-color: black;">
+      <font>
+         <Font size="20.0" />
+      </font>
+   </TextField>
+</AnchorPane>

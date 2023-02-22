@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="720.0" prefWidth="986.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.employeeFormController">
+    <children>
+      <ImageView fitHeight="720.0" fitWidth="986.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assepts/get%20health%20information.png" />
+         </image>
+      </ImageView>
+      <ComboBox layoutX="470.0" layoutY="155.0" prefHeight="39.0" prefWidth="196.0" promptText="2023" style="-fx-background-color: white; -fx-background-radius: 35 35 35 35; -fx-border-color: black; -fx-border-radius: 35 35 35 35;" />
+      <ComboBox layoutX="470.0" layoutY="247.0" prefHeight="39.0" prefWidth="265.0" style="-fx-background-color: white; -fx-background-radius: 35 35 35 35; -fx-border-color: black; -fx-border-radius: 35 35 35 35;" />
+      <TextArea editable="false" layoutX="196.0" layoutY="331.0" prefHeight="333.0" prefWidth="664.0" />
+      <Text layoutX="456.0" layoutY="492.0" strokeType="OUTSIDE" strokeWidth="0.0" text="view health report" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="720.0" prefWidth="986.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.SalaryFormController">
+    <children>
+      <ImageView fitHeight="720.0" fitWidth="986.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assepts/salary%20update.png" />
+         </image>
+      </ImageView>
+        <Text layoutX="413.0" layoutY="351.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rs.">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Text>
+        <Text layoutX="414.0" layoutY="442.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rs.">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Text>
+        <TextField layoutX="437.0" layoutY="400.0" prefHeight="39.0" prefWidth="269.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-width: 0 0 2 0;">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+        <TextField layoutX="436.0" layoutY="310.0" prefHeight="39.0" prefWidth="269.0" style="-fx-background-color: white; -fx-border-width: 0 0 2 0; -fx-border-color: black;">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+        <ComboBox layoutX="406.0" layoutY="228.0" prefHeight="39.0" prefWidth="300.0" style="-fx-background-color: white; -fx-background-radius: 30 30 30 30; -fx-border-radius: 30 30 30 30; -fx-border-color: black;" />
+        <Button id="blue" layoutX="752.0" layoutY="597.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="161.0" style="-fx-background-radius: 30 30 30 30; -fx-background-color: #0BA27A; -fx-font-weight: bold; -fx-font-family: 'Baskerville Old Face';" stylesheets="@../../sheets/stylesheet.css" text="UPDATE" textFill="WHITE" />
+    </children>
+</AnchorPane>

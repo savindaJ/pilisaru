@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="720.0" prefWidth="986.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.updateController">
+   <cursor>
+      <Cursor fx:constant="S_RESIZE" />
+   </cursor>
+   <ImageView fitHeight="720.0" fitWidth="986.0" layoutX="7.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <image>
+         <Image url="@../../assepts/VehicleInfoPage%202.png" />
+      </image>
+   </ImageView>
+   <ChoiceBox layoutX="419.0" layoutY="364.0" prefHeight="50.0" prefWidth="362.0" style="-fx-background-radius: 75; -fx-border-color: #000000; -fx-border-radius: 75; -fx-background-color: #FFFFFF;" />
+   <TextField layoutX="422.0" layoutY="430.0" prefHeight="50.0" prefWidth="362.0" style="-fx-border-width: 0 0 2 0; -fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+   <TextField layoutX="424.0" layoutY="513.0" prefHeight="50.0" prefWidth="362.0" style="-fx-border-width: 0 0 2 0; -fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+   <TextField layoutX="425.0" layoutY="593.0" prefHeight="50.0" prefWidth="362.0" style="-fx-border-width: 0 0 2 0; -fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+</AnchorPane>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="986.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.EmployeeEqupmentUpdateController">
+   <ImageView fitHeight="224.0" fitWidth="365.0" layoutX="337.0" layoutY="413.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../../../assepts/undraw_Portfolio_update_re_jqnp.png" />
+   </ImageView>
+   <ImageView fitHeight="720.0" fitWidth="986.0" layoutX="-11.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../../../assepts/Employee%20Equipment%20Update.png" />
+      </image>
+   </ImageView>
+   <ComboBox id="blue" layoutX="455.0" layoutY="152.0" prefHeight="44.0" prefWidth="332.0" style="-fx-background-color: white; -fx-border-radius: 35; -fx-background-radius: 35; -fx-border-color: black;" />
+   <TextField id="blue" layoutX="459.0" layoutY="209.0" prefHeight="44.0" prefWidth="332.0" style="-fx-background-color: white; -fx-border-width: 0 0 2 0; -fx-border-color: black;">
+      <font>
+         <Font size="20.0" />
+      </font></TextField>
+   <ComboBox id="blue" layoutX="455.0" layoutY="270.0" prefHeight="44.0" prefWidth="339.0" style="-fx-background-color: white; -fx-border-radius: 35; -fx-background-radius: 35; -fx-border-color: black;" />
+   <Button id="blue" fx:id="btnUpdate" layoutX="767.0" layoutY="611.0" mnemonicParsing="false" onAction="#btnUpdateOnAction" prefHeight="25.0" prefWidth="140.0" style="-fx-background-color: #0BA27A; -fx-background-radius: 35;" stylesheets="@../../../sheets/stylesheet.css" text="update" textFill="WHITE">
+      <font>
+         <Font size="23.0" />
+      </font>
+   </Button>
+</AnchorPane>

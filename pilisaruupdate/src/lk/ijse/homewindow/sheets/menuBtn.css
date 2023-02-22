@@ -1,0 +1,20 @@
+#btnVehicalAdd {
+    -fx-background-color: #0DC27F;
+    -fx-background-radius: 35 35 35 35;
+    -fx-text-fill: #333;
+    -fx-padding: 10;
+}
+
+#btnVehicalAdd .label {
+    -fx-font-size: 24;
+    -fx-font-weight: bold;
+}
+
+#btnVehicalAdd .arrow-button {
+    -fx-background-color: transparent;
+}
+
+#btnVehicalAdd .arrow {
+    -fx-background-color: #white;
+
+}

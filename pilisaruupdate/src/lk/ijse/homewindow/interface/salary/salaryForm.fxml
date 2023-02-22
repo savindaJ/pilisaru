@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="720.0" prefWidth="986.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.SalaryFormController">
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="986.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assepts/salary%20information.png" />
+         </image>
+      </ImageView>
+      <TableView editable="true" layoutX="10.0" layoutY="360.0" prefHeight="328.0" prefWidth="966.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="32.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+        <columns>
+          <TableColumn prefWidth="100.0" text="Month" />
+          <TableColumn maxWidth="50000.0" prefWidth="176.0" text="Standard W/Hours" />
+            <TableColumn maxWidth="50000.0" minWidth="0.0" prefWidth="138.0" text="Worked Hours" />
+            <TableColumn minWidth="0.0" prefWidth="101.0" text="OT Hours" />
+            <TableColumn minWidth="0.0" prefWidth="94.0" text="OT Pay" />
+            <TableColumn minWidth="0.0" prefWidth="106.0" text="Attendance" />
+            <TableColumn prefWidth="121.0" text="Safety Pay" />
+            <TableColumn minWidth="0.0" prefWidth="129.0" text="Total" />
+        </columns>
+      </TableView>
+      <ComboBox layoutX="395.0" layoutY="172.0" prefHeight="39.0" prefWidth="300.0" style="-fx-background-color: white; -fx-border-color: black; -fx-background-radius: 30 30 30 30; -fx-border-radius: 30 30 30 30;" />
+      <ComboBox layoutX="289.0" layoutY="282.0" prefWidth="150.0" promptText="January" style="-fx-background-color: white; -fx-background-radius: 30 30 30 30; -fx-border-color: black; -fx-border-radius: 30 30 30 30;" visibleRowCount="12" />
+      <ComboBox layoutX="716.0" layoutY="282.0" prefWidth="150.0" promptText="2023" style="-fx-background-color: white; -fx-background-radius: 30 30 30 30; -fx-border-color: black; -fx-border-radius: 30 30 30 30;" />
+   </children>
+</AnchorPane>

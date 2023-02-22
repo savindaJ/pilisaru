@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane focusTraversable="true" prefHeight="720.0" prefWidth="986.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.HomeFormController">
+    <children>
+      <ImageView fitHeight="720.0" fitWidth="986.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../../assepts/HomePage.png" />
+         </image>
+      </ImageView>
+      <Button id="blue" fx:id="btnSingOut" layoutX="807.0" layoutY="20.0" mnemonicParsing="false" onAction="#btnSingOutOnAction" opacity="0.74" prefHeight="54.0" prefWidth="145.0" style="-fx-background-color: #0BA27A; -fx-background-radius: 35 35 35 35;" stylesheets="@../../sheets/editSheet.css" text="Sign-Out" textFill="WHITE">
+         <font>
+            <Font name="Baskerville Old Face" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+    </children>
+</AnchorPane>

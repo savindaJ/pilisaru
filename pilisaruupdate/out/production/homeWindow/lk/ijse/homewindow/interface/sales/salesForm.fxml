@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="720.0" prefWidth="986.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.homewindow.controller.salesFormController">
+    <children>
+      <ImageView fitHeight="720.0" fitWidth="986.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assepts/get%20sales.png" />
+         </image>
+      </ImageView>
+      <ComboBox layoutX="335.0" layoutY="142.0" prefWidth="150.0" promptText="January" style="-fx-background-color: white; -fx-background-radius: 35 35 35 35; -fx-border-color: black; -fx-border-radius: 35 35 35 35;" visibleRowCount="12" />
+      <ComboBox layoutX="740.0" layoutY="142.0" prefWidth="150.0" promptText="2023" style="-fx-background-color: white; -fx-background-radius: 35 35 35 35; -fx-border-color: black; -fx-border-radius: 35 35 35 35;" />
+      <TableView layoutX="175.0" layoutY="263.0" prefHeight="346.0" prefWidth="749.0" style="-fx-background-color: white;">
+        <columns>
+          <TableColumn prefWidth="152.52278900146484" text="Date" />
+          <TableColumn prefWidth="131.0" text="Montly Income" />
+            <TableColumn maxWidth="50000.0" prefWidth="220.0" text="Sales(kg)">
+               <columns>
+                  <TableColumn maxWidth="50000.0" prefWidth="63.0" text="Tea" />
+                  <TableColumn maxWidth="50000.0" prefWidth="90.0" text="Coconut" />
+                  <TableColumn maxWidth="50000.0" minWidth="0.0" prefWidth="72.0" text="Rubber" />
+               </columns>
+            </TableColumn>
+            <TableColumn maxWidth="50000.0" prefWidth="244.5" text="Productivity" />
+        </columns>
+      </TableView>
+    </children>
+
+</AnchorPane>
